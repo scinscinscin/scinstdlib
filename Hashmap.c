@@ -1,7 +1,6 @@
-#include "Hashmap.h"
+#include "scinstdlib.h"
 #include <stdlib.h>
 #include <string.h>
-#include "Array.h"
 
 #define HASHMAP_LOAD_FACTOR 0.90
 #define HASHMAP_STARTING_CAPACITY 16

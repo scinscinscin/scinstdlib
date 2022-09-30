@@ -1,4 +1,4 @@
-#include "Array.h"
+#include "scinstdlib.h"
 #define GROW_CAPACITY(cap) \
     cap < 8 ? 8 : cap * 2
 
