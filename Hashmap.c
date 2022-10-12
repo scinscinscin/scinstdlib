@@ -73,7 +73,7 @@ void* getItemFromHashmap(struct Hashmap* map, const char* key) {
         if (!strcmp(entry->key, key)) return entry->val;
         else continue;
     }
-    
+
 		return NULL;
 }
 
