@@ -31,3 +31,10 @@ int isNumber(char ch) {
 int isAlphaNumerical(char ch) {
     return isAlpha(ch) | isNumber(ch);
 }
+
+char* stringify_char_array(struct Array* arr) {
+    char* ret = (char*)malloc(arr->length + 1);
+    for (int i = 0; i < arr->length; i++) ret[i] = GET_ELEMENT_FROM_ARRAY(arr, char, i);
+    ret[arr->length] = 0;
+    return ret;
+}

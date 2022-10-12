@@ -58,3 +58,4 @@ char* readFile(const char* path);
 int isAlpha(char ch);
 int isNumber(char ch);
 int isAlphaNumerical(char ch);
+char* stringify_char_array(struct Array* arr);

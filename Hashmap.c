@@ -73,7 +73,8 @@ void* getItemFromHashmap(struct Hashmap* map, const char* key) {
         if (!strcmp(entry->key, key)) return entry->val;
         else continue;
     }
-    return NULL;
+    
+		return NULL;
 }
 
 // checks if a key is in a hashmap, returns 1 if true, 0 if false
